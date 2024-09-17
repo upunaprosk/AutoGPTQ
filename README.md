@@ -17,6 +17,14 @@
 
 <details>
 
+To install Auto-GPTQ in Colab, run:
+```
+!pip install accelerate==0.26.1 datasets==2.16.1 dill==0.3.7 gekko==1.0.6 multiprocess==0.70.15 peft==0.7.1 rouge==1.0.1 sentencepiece==0.1.99
+!git clone https://github.com/upunaprosk/AutoGPTQ
+%cd AutoGPTQ
+!pip install -v .
+```
+
 <summary>The path to v1.0.0</summary>
 
 Hi, fellow community members, long time no see! I'm sorry that I haven't been able to update this project more frequently due to personal reasons during this period. The past few weeks have been huge in terms of my career plans. Not long ago, I officially bid farewell to the startup team that I joined for two years after graduation. I'm very grateful to the leaders and colleagues of the team for their trust and guidance, which enabled me to grow rapidly in two years; at the same time, I'm also really grateful to the team for allowing me to use the internal A100 GPU server cluster free of charge since the start of the AutoGPTQ project to complete various experiments and performance evaluations. (Of course, it can no longer be used in the future, so **it will mean a lot to me if there will be new hardware sponsorship!**) In the past two years, I have served as an AI engineer in this team, responsible for the LLM based dialogue system's architecture design and develop. We had successfully launched a product called gemsouls, but unfortunately it has ceased operations. Now, the team is about to launch a new product called [modelize](https://www.beta.modelize.ai/), which is **a LLM-native AI agent platform, where users can use multiple AI agents to build a highly automated team, allowing them to interact with each other in the workflow, collaborate to complete complex projects efficiently.**
